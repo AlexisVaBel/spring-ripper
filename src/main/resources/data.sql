@@ -1,0 +1,1 @@
+insert into bank (id, total_amount) values (0, 100500);

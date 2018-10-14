@@ -1,0 +1,14 @@
+spring:
+  application.name: money-raven
+  jpa.hibernate.ddl-auto: validate
+  h2.console.enabled: true
+  profile: WINTER_HERE
+
+
+ironbank:
+  lstReturningDepts:
+    - Ланистеры
+
+ворон:
+  куда-лететь: браавос, главный банк
+  вкл: true
