@@ -4,11 +4,6 @@ spring:
   h2.console.enabled: true
   profile: WINTER_HERE
 
-
-ironbank:
-  lstReturningDepts:
-    - Ланистеры
-
-ворон:
-  куда-лететь: браавос, главный банк
-  вкл: true
+raven:
+  where:
+    - браавос, мейрин
