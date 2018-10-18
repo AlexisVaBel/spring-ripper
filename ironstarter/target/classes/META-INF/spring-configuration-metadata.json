@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.ironstarter.RavenProperties",
+      "name": "raven",
+      "type": "com.ironstarter.RavenProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.ironstarter.RavenProperties",
+      "name": "raven.where",
+      "type": "java.util.List<java.lang.String>"
+    }
+  ]
+}
