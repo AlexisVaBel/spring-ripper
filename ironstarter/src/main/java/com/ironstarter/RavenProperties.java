@@ -9,6 +9,9 @@ import java.util.List;
 @Data
 @ConfigurationProperties("raven")
 public class RavenProperties {
+    List<String> where;
+    boolean turnOn;
+
     public List<String> getWhere() {
         return where;
     }
@@ -16,10 +19,6 @@ public class RavenProperties {
     public void setWhere(List<String> where) {
         this.where = where;
     }
-
-    List<String> where;
     public RavenProperties(){
-//        lstDists.stream().forEach(System.out::println);
-
     }
 }
