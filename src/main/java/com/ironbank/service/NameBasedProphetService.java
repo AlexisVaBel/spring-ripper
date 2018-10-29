@@ -8,7 +8,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 
 @Service
-//@Profile(ProfileConstants.WINTER_HERE)
+@Profile(ProfileConstants.WINTER_NEARE)
 public class NameBasedProphetService implements ProphetService {
     @Override
     public boolean willSurvive(String name) {

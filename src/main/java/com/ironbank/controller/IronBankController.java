@@ -15,10 +15,10 @@ public class IronBankController {
     private final TransferMoneyService transferMoney;
     private final MoneyDao moneyDao;
 
-    public IronBankController(TransferMoneyService transferMoney, MoneyDao moneyDao) {
-        this.transferMoney = transferMoney;
-        this.moneyDao = moneyDao;
-    }
+//    public IronBankController(TransferMoneyService transferMoney, MoneyDao moneyDao) {
+//        this.transferMoney = transferMoney;
+//        this.moneyDao = moneyDao;
+//    }
 
     @GetMapping("/credit")
     public String credit(@RequestParam String name, @RequestParam long amount) {

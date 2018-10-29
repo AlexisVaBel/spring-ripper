@@ -10,7 +10,13 @@
   "properties": [
     {
       "sourceType": "com.ironstarter.RavenProperties",
-      "name": "raven.where",
+      "defaultValue": false,
+      "name": "raven.turn-on",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.ironstarter.RavenProperties",
+      "name": "raven.where-fly",
       "type": "java.util.List<java.lang.String>"
     }
   ]

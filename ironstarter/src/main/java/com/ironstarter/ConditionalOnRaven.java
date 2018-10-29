@@ -1,4 +1,4 @@
-package com.ironstarter.annotaion;
+package com.ironstarter;
 
 import com.ironstarter.OnRavenCondition;
 import org.springframework.context.annotation.Conditional;

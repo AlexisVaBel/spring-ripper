@@ -1,4 +1,4 @@
-package com.ironstarter.annotaion;
+package com.ironstarter;
 
 import org.springframework.context.annotation.Condition;
 import org.springframework.context.annotation.ConditionContext;
@@ -9,6 +9,7 @@ import javax.swing.*;
 public class OnProductionCondition implements Condition {
     @Override
     public boolean matches(ConditionContext conditionContext, AnnotatedTypeMetadata annotatedTypeMetadata) {
-        return true;//JOptionPane.showConfirmDialog(null,"production?") == 0;
+//        return true;
+        return JOptionPane.showConfirmDialog(null,"production?") == 0;
     }
 }

@@ -4,6 +4,12 @@ spring:
   h2.console.enabled: true
   profile: WINTER_HERE
 
+ironbank:
+   lstReturningDepts:
+      - Ланистеры
+      - Мевины
 raven:
+  turn-on: true
   where:
-    - браавос, мейрин
+    - Мейрин
+

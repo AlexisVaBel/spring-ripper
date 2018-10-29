@@ -1,1 +1,3 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration = com.ironstarter.IronConfiguration
+org.springframework.context.ApplicationContextInitializer = com.ironstarter.CheckApplicationContextInitializer
+org.springframework.boot.env.EnvironmentPostProcessor = com.ironstarter.ProfileDetector
